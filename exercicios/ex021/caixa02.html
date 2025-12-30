@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray ; 
+            margin: 0px;
+        }
+        header {
+           
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color:  rgb(90, 89, 89);
+            padding: 3px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.474);
+
+            /*
+            box-shadow, colocar sombras nas bordas.
+            */
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 50px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.504);
+        }
+        article {
+            background-color:  rgb(90, 89, 89);
+        }
+        h2 {
+            background-color: #c71414;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px;
+        }
+
+
+
+
+        article > aside {
+            background-color: rgb(255, 255, 255);
+        }
+
+
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.534);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.455);
+            border-radius: 0px 10px ;
+            margin-top: 100px ;
+            
+        }
+        footer > p {
+            margin:0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+
+</nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+<aside>
+    <h2>Noticia sobre o brasil</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam laboriosam dolores magnam molestias! Nobis voluptate quidem dolorum nostrum, ipsam assumenda labore unde! Molestiae assumenda autem quasi hic asperiores ipsum.</p>
+</aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main> 
+    <footer>
+        <p>Desenvolvido pelo Thiago</p>
+    </footer>
+    <div id="bola"></div>
+
+
+
+
+
+
+</body>
+</html>
